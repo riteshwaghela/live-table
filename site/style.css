@@ -1,0 +1,87 @@
+/* This css file is included by being imported in index.js */
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    width: 100%
+}
+
+h1 {
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.content {
+    width: 700px;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    left: auto;
+    right: auto;
+    border: 1px solid grey;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+td {
+    width: 130px;
+    text-align: right;
+}
+
+th {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+td:nth-child(1) {
+    text-align: center
+}
+
+
+#currency-table {
+    font-family: "Open Sans",sans-serif;
+    letter-spacing: 0;
+    font-size: 14px;
+    font-weight: 400;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#currency-table tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    background: #fafafa;
+}
+
+#currency-table td, #currency-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#currency-table td, #currency-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: .957em;
+}
+
+#currency-table tr:hover {background-color: #ddd;}
+
+#currency-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: #9b9b9b;
+    font-weight: 400;
+    text-align: center;
+    font-size: .857em;
+}
