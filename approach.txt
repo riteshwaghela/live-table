@@ -1,0 +1,12 @@
+#Code I have written in challenge.js file whhich is inide the es6 folder.
+#Entry point of this code is the main function.
+#When main is invoked it estabilishes a connection with stomp server and suscribes to the given url for getting currency pair data.
+#There is a map which mainatains the data for the last 30 seconds for a given currency pair. This data is updated as soon as data from the server is received. Also, the column data is prepared.
+#The currency data is then passed to a function named createTable.
+#This function renders the headers only once.
+# It then checks if the data with a given currency pair already exist in table, if not it inserts a new row to the table for that currency pair
+# If data is laredy present for that currency pair, it removes that row and inserts the row with updated data.
+# It then picks up the midPrice data from the map for that currency pair and draws the sparklines.
+# Table is then sorted.
+
+
