@@ -1,4 +1,4 @@
-#Code I have written in challenge.js file whhich is inide the es6 folder.
+#Code I have written in challenge.js file whhich is inisde the es6 folder.
 #Entry point of this code is the main function.
 #When main is invoked it estabilishes a connection with stomp server and suscribes to the given url for getting currency pair data.
 #There is a map which mainatains the data for the last 30 seconds for a given currency pair. This data is updated as soon as data from the server is received. Also, the column data is prepared.
@@ -9,4 +9,5 @@
 # It then picks up the midPrice data from the map for that currency pair and draws the sparklines.
 # Table is then sorted.
 
-
+Assumption:
+Since the order of sorting was not mentioed, I have sorted the lastChangeBid column in descending order.
