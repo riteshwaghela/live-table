@@ -52,7 +52,6 @@ td:nth-child(1) {
     font-weight: 400;
     border-collapse: collapse;
     border-spacing: 0;
-    width: 100%;
 }
 
 #currency-table tr{
