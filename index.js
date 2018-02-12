@@ -10,7 +10,7 @@ require('./site/index.html')
 require('./site/style.css')
 
 // if you want to use es6, you can do something like
-   require('./es6/src/challange')
+   require('./es6/src/challenge')
 // here to load the myEs6code.js file, and it will be automatically transpiled.
 
 // Change this to get detailed logging from the stomp library
